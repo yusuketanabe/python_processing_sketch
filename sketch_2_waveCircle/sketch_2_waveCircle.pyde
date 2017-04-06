@@ -1,13 +1,13 @@
 import math
 
+theta = 0
+
 def setup():
     size(200, 200)
     noFill()
     stroke(150, 100, 200)
     strokeWeight(4)
     
-theta = 0
-
 def draw():
     background(30)
     global theta
